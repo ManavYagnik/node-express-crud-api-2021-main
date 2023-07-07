@@ -14,7 +14,7 @@ mongoose.connect(
 );
 
 // Import routes
-const productRoutes = require("./routes/product");
+const productRoutes =  require("./routes/product");
 
 // Middlewares
 app.use(express.json());
